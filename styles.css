@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    height: 100vh;
+    background-image: url(nature-wallpaper-gd9cc62bd0_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.time{
+    font-size: 5em;
+    position: relative;
+    top: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 128, 96);
+}
+
+.box{
+    /* border: 1px solid #fbb69f; */
+    padding: 20px 20px;
+    background-image: linear-gradient(to right, #e0d5a3, #d8c985);
+    box-shadow: 0px 0px 50px #c0d69d;
+}
