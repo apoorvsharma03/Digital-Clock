@@ -7,7 +7,7 @@ function gettime(){
     var ses = "AM";
 
     if(h > 12){
-        h -= 0;
+        h -= 12;
         ses = "PM";
     }
 
@@ -24,5 +24,5 @@ function gettime(){
     document.getElementById('hours').innerHTML = h 
     document.getElementById('minutes').innerHTML = m 
     document.getElementById('seconds').innerHTML = s;
-    document.getElementById('sessions').innerHTML = ses;
+    document.getElementById('session').innerHTML = ses;
 }
